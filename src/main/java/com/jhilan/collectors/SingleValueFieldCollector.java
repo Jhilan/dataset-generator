@@ -5,9 +5,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ThreadLocalRandom;
 
-/**
- * Created by jhilanalkarawi on 3/30/17.
- */
 public class SingleValueFieldCollector implements FieldCollector{
     private final Map<String, List<Object>> fields;
 

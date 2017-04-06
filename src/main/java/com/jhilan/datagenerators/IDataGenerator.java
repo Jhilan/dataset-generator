@@ -16,9 +16,6 @@ import com.jhilan.collectors.TextFieldCollector;
 import com.jhilan.config.DataSetConfig;
 import com.jhilan.config.MetaDataFields;
 
-/**
- * Created by jhilanalkarawi on 3/28/17.
- */
 public interface IDataGenerator {
 
     void generateDataset() throws IOException;

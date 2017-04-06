@@ -5,9 +5,6 @@ import java.util.List;
 import com.jhilan.collectors.FieldCollector;
 import com.jhilan.config.YamlConfig;
 
-/**
- * Created by jhilanalkarawi on 3/28/17.
- */
 public class DatFormatGenrator implements IDataGenerator {
     private final List<FieldCollector> collectors;
 

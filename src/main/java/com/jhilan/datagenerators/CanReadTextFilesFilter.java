@@ -7,9 +7,6 @@ import org.apache.commons.io.filefilter.IOFileFilter;
 
 import com.jhilan.config.DataSetConfig;
 
-/**
- * Created by jhilanalkarawi on 3/28/17.
- */
 public class CanReadTextFilesFilter implements IOFileFilter {
     private final List<DataSetConfig.FilesFormats> filesFormats;
 

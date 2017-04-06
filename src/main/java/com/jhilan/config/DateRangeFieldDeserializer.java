@@ -12,14 +12,10 @@ import com.fasterxml.jackson.core.ObjectCodec;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.DeserializationContext;
 import com.fasterxml.jackson.databind.JsonDeserializer;
-import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.jhilan.exception.ConfigValidationException;
 
-/**
- * Created by jhilanalkarawi on 3/31/17.
- */
 public class DateRangeFieldDeserializer extends JsonDeserializer<Map<String, List<LocalDate>>> {
     @Override
     public Map<String, List<LocalDate>> deserialize(final JsonParser jsonParser, final DeserializationContext ctxt)

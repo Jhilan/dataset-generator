@@ -9,9 +9,6 @@ import com.jhilan.config.KeyField;
 
 import static com.jhilan.datagenerators.JsonFormatGenerator.isSet;
 
-/**
- * Created by jhilanalkarawi on 3/30/17.
- */
 public class KeyFieldCollector implements FieldCollector {
     private final boolean isUuid;
     private final String keyFieldName;

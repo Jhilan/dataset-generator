@@ -8,9 +8,6 @@ import com.jhilan.config.BodyTextField;
 
 import static com.jhilan.datagenerators.JsonFormatGenerator.isSet;
 
-/**
- * Created by jhilanalkarawi on 3/30/17.
- */
 public class TextFieldCollector implements FieldCollector {
     private final String textFieldName;
     private final BodyTextIterator bodyTextIterator;

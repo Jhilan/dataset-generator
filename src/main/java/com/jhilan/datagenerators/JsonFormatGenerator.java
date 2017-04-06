@@ -16,9 +16,6 @@ import com.jhilan.exception.ConfigValidationException;
 import com.jhilan.config.DataSetConfig;
 import com.jhilan.config.YamlConfig;
 
-/**
- * Created by jhilanalkarawi on 3/28/17.
- */
 public class JsonFormatGenerator implements IDataGenerator {
     private static final Logger LOG = Logger.getLogger(JsonFormatGenerator.class);
 

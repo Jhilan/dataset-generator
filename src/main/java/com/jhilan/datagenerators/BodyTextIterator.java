@@ -19,9 +19,6 @@ import com.jhilan.exception.ConfigValidationException;
 import com.jhilan.exception.FileReadException;
 import com.jhilan.config.DataSetConfig;
 
-/**
- * Created by jhilanalkarawi on 3/28/17.
- */
 public class BodyTextIterator implements Iterator<String> {
     private final int numberOfDocs;
     private final int documentSize;

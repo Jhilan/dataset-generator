@@ -7,9 +7,6 @@ import java.util.concurrent.ThreadLocalRandom;
 
 import com.jhilan.exception.ConfigValidationException;
 
-/**
- * Created by jhilanalkarawi on 3/30/17.
- */
 public class NumberRangeFieldCollector implements FieldCollector {
     private final Map<String, List<Object>> fields;
 

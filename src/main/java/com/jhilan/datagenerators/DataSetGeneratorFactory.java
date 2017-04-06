@@ -4,9 +4,6 @@ import com.jhilan.exception.ConfigValidationException;
 import com.jhilan.config.DataSetConfig;
 import com.jhilan.config.YamlConfig;
 
-/**
- * Created by jhilanalkarawi on 3/29/17.
- */
 public final class DataSetGeneratorFactory {
     private DataSetGeneratorFactory() {}
 

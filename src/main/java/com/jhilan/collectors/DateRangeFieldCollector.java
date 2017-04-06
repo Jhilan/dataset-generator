@@ -8,9 +8,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ThreadLocalRandom;
 
-/**
- * Created by jhilanalkarawi on 3/31/17.
- */
 public class DateRangeFieldCollector implements FieldCollector {
     private final Map<String, List<LocalDate>> fields;
 

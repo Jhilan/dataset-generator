@@ -10,9 +10,6 @@ import org.apache.commons.cli.ParseException;
 
 import com.jhilan.exception.ConfigValidationException;
 
-/**
- * Created by jhilanalkarawi on 4/5/17.
- */
 class Parser {
     private static final String CONFIG_FILE_PATH_OPTION = "config";
     private CommandLine commandLine;

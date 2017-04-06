@@ -17,5 +17,3 @@ hs_err_pid*
 *.iws
 .idea/
 .idea/ant.xml
-
-src/test/

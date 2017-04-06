@@ -4,7 +4,7 @@ in systems that deals with json based documents and need to have custom data set
 
 ### Usage
 - clone this repository
-- $ ./build.sh
+- $ ./build
 
 a sample dataset will be generated at ./dist/dataset1.json as configured in ./dist/config.yml
 

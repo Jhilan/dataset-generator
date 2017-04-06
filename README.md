@@ -1,8 +1,8 @@
-##Dataset Generator
+## Dataset Generator
 a small tool that generates custom data sets of documents with metadata, it's useful for testing purposes
 in systems that deals with json based documents and need to have custom data sets of any size.
 
-###Usage
+### Usage
 
  $ ./build.sh
 

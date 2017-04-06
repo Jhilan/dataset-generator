@@ -1,0 +1,55 @@
+# configration and metadata to genereate dataset
+---
+configuration:
+  # document size in byte
+  documentSize: 265
+
+  # number of documents to generate
+  numberOfDocuments: 100
+
+  # base path of the source text files to generate dataset from
+  textBaseDirectory: ./sample-text
+
+  # name of the generated dataset file
+  datasetFileName: dataset1
+
+  # path of where the dataset file will be saved
+  datasetFilePath: .
+
+  # outputFormat of the dataset file, supported formats: JSON, DAT
+  outputFormat: JSON
+
+  # list all files format to extract text from while creating the dataset. [TXT, XML, DOCS, DOC, JSON, DAT, HTML, CSV]
+  filesFormatsToAccept: [TXT]
+
+# all the metadata fields that will compose the dataset
+fields:
+  # key field is the unique id of the documents, could be either a sequence starting at "startingNumber" or random uuid
+  # only one keyField per dataset
+  keyField:
+    name: identifier
+    startingNumber: 1
+    uuid: false
+
+  # the main text field of the document, only one textField per dataset
+  textField:
+    name: bodyText
+    # turn this to true if you want more unique bodyText as text will be pulled from files in random way.
+    randomText: false
+
+  # fields that can have more than one value from list of possible values, you can add your own named fields and values
+  multiValueFields:
+    emailTo: [to1@test.com, to2@test.com, to3@test.com, to4@test.com, to5@test.com]
+    #emailCc: [cc1@test.com, cc2@test.com, cc3@test.com, cc4@test.com, cc5@test.com]
+
+  # fields that can have only single value from list of possible values, you can add your own named fields and values
+  singleValueFields:
+    emailFrom: [from1@test.com, from2@test.com, from3@test.com, from4@test.com, from5@test.com]
+
+  # fields that will have a random value between an int range, you can add your own named fields and values
+  numberRangeFields:
+    fileType: [1, 60]
+
+  # fields that will have a random date between two date values, you can add your own named fields and values
+  dateRangeFields:
+    sentDate: [2010-02-11, 2016-02-11]

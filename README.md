@@ -3,8 +3,8 @@ a small tool that generates custom data sets of documents with metadata, it's us
 in systems that deals with json based documents and need to have custom data sets of any size.
 
 ### Usage
- clone this repository
- $ ./build.sh
+- clone this repository
+- $ ./build.sh
 
 a sample dataset will be generated at ./dist/dataset1.json as configured in ./dist/config.yml
 
